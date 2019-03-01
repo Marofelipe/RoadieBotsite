@@ -153,25 +153,27 @@ body {
   div.container{
      background-color:#e4d4cb;
 	box-shadow:0 1px 1px #ccc;
-	padding: 10px 40px;
+	padding: 1em 3em;
 	height: 650px;
 	color: #ffffff;
 	box-sizing: border-box;
-	top:4000px;
+	
   }
   .container h1{
   	float: center;
 	font: normal 70px Cookie, Arial, Helvetica, sans-serif;
 	line-height: 40px;
 	margin: 0;
-	padding: 40px 335px;
+	padding: 10px 400px;
 	color: #060505;
+  }
+  
   }
 
   div.video{
      position: absolute;
      left: 150px;
-     display: block;
+     
     
 }
   body > footer {
