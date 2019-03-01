@@ -138,44 +138,59 @@ body.fixed .header-fixed .header-limiter nav {
 body {
 	margin: 0;
 	padding: 0;
-	height: 1300px;
+	height: 100vh;
 }
   div.back{
-     background-color:#FFF;
-	box-shadow:0 1px 1px #ccc;
-	padding: 10px 40px;
+    background-color:#FFF;
+	position: relative;
 	height: 595px;
 	color: #ffffff;
 	box-sizing: border-box;
-	top:2000px;
+	
+  }
+  .imgback{
+  	background-size: cover;	
+  	
 
+  }
+  .fotos{
+    margin-top: 50px;
+  	width: 480px;
+  	margin-right: 40px;
+  	border-color: white;
+  	border-width: 10px;
+  }
+  .fotos:hover {
+
+  	zoom:110%;
   }
   div.container{
      background-color:#e4d4cb;
 	box-shadow:0 1px 1px #ccc;
-	padding: 1em 3em;
-	height: 650px;
+	padding: 1em 1em;
+	height: 545px;
 	color: #ffffff;
-	box-sizing: border-box;
 	
+	
+  }
+  .elemento{
+  	display: flex;
+    align-items: center;
+    justify-content: center;
+  
   }
   .container h1{
   	float: center;
 	font: normal 70px Cookie, Arial, Helvetica, sans-serif;
 	line-height: 40px;
 	margin: 0;
-	padding: 10px 400px;
+	padding: 20px;
 	color: #060505;
   }
-  
-  }
 
-  div.video{
-     position: absolute;
-     left: 150px;
-     
-    
-}
+  
+
+
   body > footer {
     margin: 0px;
     padding: 1.25em;
@@ -189,15 +204,47 @@ body > footer div {
     width: 70%;  
     text-align: center;
     padding: 1.25em 0px;
+    height: 5vh;
 }
 body > footer .social {
     padding: 1em 3em;
 }
 body > footer .social img {
     vertical-align: middle;
-    height: 2.5em;
+    height: 4em;
 }
 body > footer h1{
+  	float: center;
+	font: normal 70px Cookie, Arial, Helvetica, sans-serif;
+	line-height: 40px;
+	margin: 0;
+	padding: 10px 200px;
+	color: #060505;
+  }
+
+  body > {
+    margin: 0px;
+    padding: 1.25em;
+   
+    color: white;
+    font-size: .85em;
+}
+body > div {
+
+	box-shadow:5px #ccc;
+    margin: auto;
+    width: 100%;  
+    text-align: center;
+    padding: 1.25em 0px;
+}
+body >  .social {
+    padding: 1em 3em;
+}
+body >  .social img {
+    vertical-align: middle;
+    height: 2em;
+}
+body >  h1 .social	{
   	float: center;
 	font: normal 70px Cookie, Arial, Helvetica, sans-serif;
 	line-height: 40px;
