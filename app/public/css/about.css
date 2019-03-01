@@ -139,11 +139,15 @@ body.fixed .header-fixed .header-limiter nav {
  */
 
 body {
+	
 	margin: 0;
 	padding: 0;
 	height: 100vh;
+	
 }
+
   div.back{
+    
     background-color:#FFF;
 	position: relative;
 	width: 100vh;
@@ -164,6 +168,12 @@ body {
   .imgback{
   	background-size: cover;	
   	
+  }
+   .imgback2{
+  	background-size: cover;	
+  	display: flex;
+    align-items: stretch;
+    justify-content: center;
 
   }
   .fotos{
@@ -179,7 +189,7 @@ body {
   }
   
   div.container{
-     background-color:#e4d4cb;
+    background-color:#e4d4cb;
 	box-shadow:0 1px 1px #ccc;
 	padding: 1em 1em;
 	height: 545px;
@@ -249,6 +259,7 @@ body > footer h1{
 	margin: 0;
 	padding: 10px 200px;
 	color: #060505;
+	vertical-align: middle;
   }
 
   body > {
@@ -282,14 +293,14 @@ body >  h1 .social	{
 	color: #060505;
   }
 .TextoA{
-    border-width: medium;
-    border-style: solid;
-    border-color: #000000;
-	position: absolute;
-	float: center;
+    
+   
+	position: relative;
+	margin: 2em;  
 	width: 300px;
 	height: 500px;
-	left: 30%;
+	z-index: 3;
+	
 }
 .TextoA:hover {
   zoom :120%;
@@ -301,28 +312,40 @@ body >  h1 .social	{
   zoom :120%;
 }
 .TextoB{
-    border-width: medium;
-    border-style: solid;
-    border-color: #000000;
-	position: absolute;
-	float: center;
+	
+    
+	position: relative;
+	margin: 2em; 
 	width: 300px;
 	height: 500px;
-	left: 44%;
+	z-index: 2;
+	
 }
 .TextoC{
-    border-width: medium;
-    border-style: solid;
-    border-color: #000000;
-	position: absolute;
-	float: center;
+	
+   
+    
+	position: relative;
+	margin: 2em;
 	width: 300px;
 	height: 500px;
-	left: 58%;
+	z-index: 1;
+	
 }
 h3{
-	font:30px Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	font:20px Arial, Helvetica, sans-serif;
 	color:#060505;
-	font-weight: 500;
+	font-weight: 5000;
+	overflow: auto;
 
+}
+/* CSS das imagens dos quadros de informação*/
+
+ .mao{
+	width: 50px;
+	margin: 10px;
+}
+.caixa{
+	margin-top: 20px
 }
