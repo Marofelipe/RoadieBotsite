@@ -69,6 +69,9 @@
 .header-fixed .header-limiter nav a:hover{
 	opacity: 1;
 }
+.header-fixed .header-limiter img{
+	width: 30px;
+}
 
 /* Fixed version of the header */
 
@@ -143,11 +146,21 @@ body {
   div.back{
     background-color:#FFF;
 	position: relative;
+	width: 100vh;
 	height: 595px;
 	color: #ffffff;
 	box-sizing: border-box;
-	
+  
+
+  }	
+  .text {
+
+  	position: relative;
+  	
+  	height: 30vh;
+    
   }
+
   .imgback{
   	background-size: cover;	
   	
@@ -162,8 +175,9 @@ body {
   }
   .fotos:hover {
 
-  	zoom:110%;
+  	zoom:120%;
   }
+  
   div.container{
      background-color:#e4d4cb;
 	box-shadow:0 1px 1px #ccc;
@@ -173,7 +187,7 @@ body {
 	
 	
   }
-  .elemento{
+  .container.elemento{
   	display: flex;
     align-items: center;
     justify-content: center;
@@ -182,6 +196,21 @@ body {
   .container h1{
   	float: center;
 	font: normal 70px Cookie, Arial, Helvetica, sans-serif;
+	line-height: 40px;
+	margin: 0;
+	padding: 20px;
+	color: #060505;
+  }
+  .back.elemento{
+  	display: flex;
+    align-items: stretch;
+    justify-content: center;
+  
+  }
+
+  .backA h1{
+  	float: center;
+	font: normal 50px Cookie, Arial, Helvetica, sans-serif;
 	line-height: 40px;
 	margin: 0;
 	padding: 20px;
@@ -252,3 +281,48 @@ body >  h1 .social	{
 	padding: 10px 200px;
 	color: #060505;
   }
+.TextoA{
+    border-width: medium;
+    border-style: solid;
+    border-color: #000000;
+	position: absolute;
+	float: center;
+	width: 300px;
+	height: 500px;
+	left: 30%;
+}
+.TextoA:hover {
+  zoom :120%;
+}
+.TextoB:hover {
+  zoom :120%;
+}
+.TextoC:hover {
+  zoom :120%;
+}
+.TextoB{
+    border-width: medium;
+    border-style: solid;
+    border-color: #000000;
+	position: absolute;
+	float: center;
+	width: 300px;
+	height: 500px;
+	left: 44%;
+}
+.TextoC{
+    border-width: medium;
+    border-style: solid;
+    border-color: #000000;
+	position: absolute;
+	float: center;
+	width: 300px;
+	height: 500px;
+	left: 58%;
+}
+h3{
+	font:30px Arial, Helvetica, sans-serif;
+	color:#060505;
+	font-weight: 500;
+
+}
